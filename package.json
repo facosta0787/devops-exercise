@@ -1,0 +1,30 @@
+{
+  "name": "devops-course",
+  "version": "0.0.1",
+  "description": "devops docker terraform ci cd",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "devops",
+    "docker",
+    "terraform",
+    "ci",
+    "cd"
+  ],
+  "author": "@facosta0787",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-asyncify": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.8",
+    "supertest": "^3.3.0"
+  }
+}
