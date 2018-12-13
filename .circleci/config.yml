@@ -25,7 +25,4 @@ jobs:
           name: Docker Test
           command: docker run img-me-api npm run test
 
-      # run tests!
-      #- run: yarn test
-
 
